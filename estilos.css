@@ -1370,11 +1370,14 @@ textarea {
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--colorTextoOscuro);
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+  word-break: break-word;
 }
 
 .valorDato:hover {
   color: var(--colorPrimario);
+  transform: translateX(2px);
 }
 
 /* Estilo del Formulario */

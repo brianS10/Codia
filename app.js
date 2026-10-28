@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const campoMensaje = document.getElementById('campoMensaje');
   const etiquetaAnioActual = document.getElementById('anioActual');
 
-  // Datos de contacto oficiales de Codia
+  // Datos de contacto oficiales de Romsan R&S Consulting
   const CONTACTO_OFICIAL = {
     telefono: '5510244418',
     telefonoVisual: '+52 (55) 1024 4418',
     whatsapp: '525510244418',
-    correo: 'brian07j0@gmail.com'
+    correo: 'romsan1021@gmail.com'
   };
 
   // Actualiza año actual en el copyright
